@@ -114,7 +114,7 @@
 
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 450px){
     .Navbar_Full_Pages ul {
         display: flex;
         flex-direction: column;
