@@ -1,6 +1,6 @@
 import * as React from "react"
 import service from '../styles/service.css';
-import { Navbar } from "../components/a_navbar";
+import  Navbar from "../components/a_navbar";
 
 
 const ServicePage = () => {

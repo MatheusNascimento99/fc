@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Navbar } from "../components/a_navbar/index";
+import  Navbar  from "../components/a_navbar/index";
 
 const Agenda = () => {
   return (

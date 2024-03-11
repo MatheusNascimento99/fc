@@ -1,6 +1,6 @@
 import * as React from "react"
 import contact from '../styles/contact.css';
-import { Navbar } from "../components/a_navbar";
+import  Navbar  from "../components/a_navbar";
 
 
 const ContactPage = () => {

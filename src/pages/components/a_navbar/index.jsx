@@ -7,7 +7,7 @@ import Whatsapp from '../../../images/w.png';
 import { StaticImage } from "gatsby-plugin-image";
 
 
-export function Navbar() {
+const Navbar = () => {
     return (
         <main className="Navbar_Full">
             <Link to="/"><StaticImage className="logo" src="../../../images/logo.png" alt="Foto da logo da empresa" /></Link>
@@ -45,3 +45,5 @@ export function Navbar() {
         </main>
     )
 }
+
+export default Navbar;

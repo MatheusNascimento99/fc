@@ -1,6 +1,6 @@
 import * as React from "react"
 import about from '../styles/about.css';
-import { Navbar } from "../components/a_navbar";
+import  Navbar  from "../components/a_navbar";
 
 
 const AboutPage = () => {
