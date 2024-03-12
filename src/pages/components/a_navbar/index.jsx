@@ -38,9 +38,9 @@ const Navbar = () => {
 
 
             <div className="Navbar_Full_SocialMedia">
-                <a href="https://www.linkedin.com/in/matheus-nascimento-106a00226/" target="_blank"> <img className="icon" src={Linkedin} alt="img linkedin" /></a>
-                <a href="https://www.linkedin.com/in/matheus-nascimento-106a00226/" target="_blank"> <img className="icon" src={Insta} alt="img instagram" /></a>
-                <a href="https://www.linkedin.com/in/matheus-nascimento-106a00226/" target="_blank"> <img className="icon" src={Whatsapp} alt="img whatsapp" /></a>
+                <a rel="noreferrer"  href="https://www.linkedin.com/in/fc-secret%C3%A1ria-virtual-7053312ba/" target="_blank"> <img className="icon" src={Linkedin} alt="img linkedin" /></a>
+                <a rel="noreferrer"  href="https://www.instagram.com/fc786_31" target="_blank"> <img className="icon" src={Insta} alt="img instagram" /></a>
+                <a rel="noreferrer"  href="https://www.linkedin.com/in/matheus-nascimento-106a00226/" target="_blank"> <img className="icon" src={Whatsapp} alt="img whatsapp" /></a>
             </div>
         </main>
     )

@@ -1,17 +1,13 @@
 import * as React from "react"
 import about from '../styles/about.css';
-import  Navbar  from "../components/a_navbar";
-
+import Navbar from "../components/a_navbar";
+import MiddleSobreNos from "../components/e_middleSobreNos";
 
 const AboutPage = () => {
   return (
     <main >
-      
-      <h1 className="hg" >
-        <Navbar></Navbar>
-      Aqui vai o sobre nós completo missao valores e tal
-
-      </h1>
+      <Navbar></Navbar>
+      <MiddleSobreNos></MiddleSobreNos>
     </main>
   )
 }
