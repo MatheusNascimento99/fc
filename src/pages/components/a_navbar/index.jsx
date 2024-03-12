@@ -5,12 +5,13 @@ import Linkedin from '../../../images/l.png';
 import Insta from '../../../images/i.png';
 import Whatsapp from '../../../images/w.png';
 import { StaticImage } from "gatsby-plugin-image";
+import Seta from '../../../images/seta.png';
 
 
 const Navbar = () => {
     return (
         <main className="Navbar_Full">
-            <Link to="/"><StaticImage className="logo" src="../../../images/logo.png" alt="Foto da logo da empresa" /></Link>
+            <Link to="/"><StaticImage className="logo" src="../../../images/logofc.jpeg" alt="Foto da logo da empresa" /></Link>
 
             <div className="Navbar_Full_Pages">
                 <ul>
@@ -21,7 +22,7 @@ const Navbar = () => {
                         <Link className="Links_Page" to="/about">Sobre Nós</Link>
                     </li>
                     <li id="Dropdown">
-                        <Link className="Links_Page" to="/service">Soluções</Link>
+                        <Link className="Links_Page" to="/service">Soluções </Link>
                         <div id="Dropdown_Menu">
                             <Link className="Dropdown_Link" to="/telefone">Via Telefone</Link>
                             <Link className="Dropdown_Link" to="/whatsapp">Via WhatsApp</Link>

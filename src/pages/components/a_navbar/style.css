@@ -1,17 +1,20 @@
 @import url(../../styles/global.css);
 
-.Navbar_Full{
+.Navbar_Full {
     display: flex;
     background-color: rgb(158, 226, 204);
     border: black 2px solid;
     justify-content: space-evenly;
     align-items: center;
-    
+
 }
 
-.logo{
+.logo {
     border: black 2px solid;
-    
+    width: auto;
+    height: auto;
+    max-width: 210px;
+    max-height: 210px;
 }
 
 .Navbar_Full_Pages {
@@ -19,10 +22,10 @@
     border: rgb(55, 233, 42) 2px solid;
     text-align: center;
     max-width: 100%;
-}   
+}
 
 
-.Navbar_Full_Pages ul li{
+.Navbar_Full_Pages ul li {
     display: inline-block;
 
 }
@@ -30,7 +33,7 @@
 
 
 
-.Links_Page{
+.Links_Page {
     color: rgb(51, 0, 255);
     text-decoration: none;
     display: inline-block;
@@ -40,51 +43,55 @@
 
 }
 
-.icon{
+.icon {
     width: 50px;
-    height: 50px;   
+    height: 50px;
     border: yellow 2px solid;
     margin: 1rem;
-    
+
 }
 
-.Navbar_Full_SocialMedia{
+.Navbar_Full_SocialMedia {
     border: black 2px solid;
     display: flexbox;
 }
 
 
-.Dropdown_Link{
+.Dropdown_Link {
     display: block;
     text-decoration: none;
     font-size: 20px;
-    padding: 1rem;
+    margin: 0.7rem 0rem 0.7rem 0rem;
+    color: black;
+    font-weight: 600;
 }
 
 #Dropdown_Menu {
     position: absolute;
     display: none;
     border: red 2px solid;
+    font-weight: 500;
 }
 
 #Dropdown:hover #Dropdown_Menu {
     display: block;
+
 }
 
-@media screen and (max-width: 1080px){
-    .icon{
-        
+@media screen and (max-width: 1080px) {
+    .icon {
+
         margin: 0.4rem;
-        
+
     }
 
-    .Links_Page{
-       
+    .Links_Page {
+
         margin: 0.4rem;
-    
+
     }
 
-    .Navbar_Full_SocialMedia{
+    .Navbar_Full_SocialMedia {
         border: black 2px solid;
         display: flex;
         flex-direction: column;
@@ -95,30 +102,48 @@
 
 
 
-@media screen and (max-width: 550px){
-   
+@media screen and (max-width: 550px) {
+
     .Navbar_Full {
         display: flex;
         flex-direction: column;
 
-    }   
-     
+    }
 
-    .Navbar_Full_SocialMedia{
+
+    .Navbar_Full_SocialMedia {
         display: flex;
         flex-direction: row;
         margin: 1rem;
 
     }
+
+    .Navbar_Full_Pages ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+
+    #Dropdown_Menu {
+        position: relative;
+        }
+    
+
     
 
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px) {
     .Navbar_Full_Pages ul {
         display: flex;
         flex-direction: column;
-        padding: 0; /* Remova o padding padrão da lista */
+        padding: 0;
     }
+
+    #Dropdown_Menu {
+        position: relative;
+        }
+    
 
 }
